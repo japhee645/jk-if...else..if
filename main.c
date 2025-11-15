@@ -2,7 +2,7 @@
 //use of if...else...if statement
 int main(){
     int marks;
-    printf("Enter students marks");
+    printf("Enter students marks\n");
     scanf("%d", marks);
     if(marks >=70){
         printf("A");
@@ -22,4 +22,5 @@ int main(){
     else
     printf("Invalid marks");
     return 0;
+
 }
