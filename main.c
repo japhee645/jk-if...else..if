@@ -3,7 +3,7 @@
 int main(){
     int marks;
     printf("Enter students marks\n");
-    scanf("%d", marks);
+    scanf("%d", &marks);
     if(marks >=70){
         printf("A");
     }
@@ -24,3 +24,4 @@ int main(){
     return 0;
 
 }
+
